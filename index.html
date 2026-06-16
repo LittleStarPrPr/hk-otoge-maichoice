@@ -54,6 +54,8 @@ body.dark .theme-fab{background:rgba(0,0,0,.72);color:#f8fafc;border-color:rgba(
 .limit-card.ok{background:#14532d;color:#dcfce7;border-color:#86efac}
 .limit-card.warn{background:#92400e;color:#fff7ed;border-color:#fdba74}
 body.dark .limit-card{border-color:rgba(255,255,255,.18)}
+.credit{font-size:12px;color:#64748b;line-height:1.45;margin-top:10px}.credit .critical-perfect{display:inline-flex;align-items:center;gap:4px;color:#ca8a04;font-weight:900;text-shadow:0 0 10px rgba(250,204,21,.72);animation:criticalBlink .82s steps(2,end) infinite}.credit .critical-perfect::before{content:"";width:7px;height:7px;border-radius:50%;background:#facc15;box-shadow:0 0 7px #facc15,0 0 14px rgba(250,204,21,.85);animation:criticalLamp .82s steps(2,end) infinite}@keyframes criticalBlink{0%,100%{color:#a16207;text-shadow:0 0 3px rgba(250,204,21,.35)}50%{color:#fde047;text-shadow:0 0 8px #facc15,0 0 18px rgba(250,204,21,.9)}}@keyframes criticalLamp{0%,100%{opacity:.45;transform:scale(.86)}50%{opacity:1;transform:scale(1.18)}}body.dark .credit{color:#94a3b8}
+@media (max-width: 860px){.credit{font-size:10px;line-height:1.25;margin-top:5px}.credit .critical-perfect::before{width:6px;height:6px}}
 </style>
 </head>
 <body class="pre-entry">
@@ -70,6 +72,7 @@ body.dark .limit-card{border-color:rgba(255,255,255,.18)}
   </div>
   <div class="disclaimer"><b>免责声明</b><br>本页面由公开地图、社群资料与交通公开接口汇总而成，仅供出行和选店参考。机台数量、版本、营业状态、排队情况、票价、路线时间与口岸办公安排可能临时变化；出发前请以机厅现场、官方交通/口岸信息为准。人气值用于表示公开社群热度，不代表实时排队人数。</div>
   <div class="source"><b>数据来源</b><br><span id="welcomeSources">BEMANI CN、Zenius-I-vanisher、MTR 官方 HRRoutes API、香港入境事务处口岸办公时间、公开巴士票价资料。</span><br><span id="welcomeGameCounts"></span></div>
+  <div class="credit">@made by メタトロン and Codex and <span class="critical-perfect">CRITICAL PERFECT</span></div>
   <div class="welcome-actions"><span id="appVersion" class="welcome-version">v1.1.0</span><button id="enterMap" class="primary-btn" type="button">进入地图</button></div>
  </section>
 </div>
@@ -87,6 +90,7 @@ body.dark .limit-card{border-color:rgba(255,255,255,.18)}
  <section class="panel note">人气值按 BEMANI CN 收藏数、SEGA/KONAMI 目标机台数量、更新时间与双来源核验加权，表示公开社群热度，不是实时排队人数。</section>
  <section class="list" id="list"></section>
  <section class="panel source"><b>数据源</b><br>机厅/maimaiDX/CHUNITHM：BEMANI CN 当前香港区公开店铺页；IIDX、SDVX 与部分坐标：Zenius-I-vanisher；票价与港铁末班车：MTR 官方 HRRoutes API 已重新请求验证。公交接驳票价使用公开路线资料：B2P HK$11.3、B7 HK$11.3、B5 HK$6.1。口岸办公时间：香港入境事务处，页面更新 2026-05-27。生成日期：2026-06-16。</section>
+ <div class="credit">@made by メタトロン and Codex and <span class="critical-perfect">CRITICAL PERFECT</span></div>
 </aside>
 <main>
  <div class="topbar"><div class="title"><h1>香港音游CheckMaiWay <span class="rgb-bang">!</span><span class="rgb-bang">!</span><span class="rgb-bang">!</span><span class="rgb-bang">!</span></h1><p>筛选 maimaiDX、CHUNITHM、IIDX、SDVX，查看 Apple 地图链接，并估算从主要口岸出发的成人八达通交通费用。</p></div><div class="stats"><span class="stat" id="countStat"></span><span class="stat" id="favStat"></span><span class="stat">20 maimaiDX</span><span class="stat">13 CHUNITHM</span><span class="stat">4 IIDX</span><span class="stat">4 SDVX</span></div></div>
