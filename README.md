@@ -2,7 +2,7 @@
 
 香港街機音樂遊戲地圖與出行檢查工具。網站針對香港可遊玩的街機音遊店舖，整理店舖位置、機種分類、營業時間、收藏、地圖連結，以及由主要口岸 / 西九龍高鐵站 / 香港國際機場出發與返程的交通資訊。
 
-目前版本：`v1.1.6`
+目前版本：`v1.1.7`
 
 網站：
 
@@ -22,7 +22,7 @@
 - 支援返程估算，並分開顯示口岸關閉紅線與港鐵末班車紅線。
 - 口岸紅線會預留至少 30 分鐘過關緩衝。
 - 如口岸關閉紅線早於港鐵末班車紅線，頁面只顯示最終有效的口岸紅線。
-- 香港國際機場起點會獨立顯示機場快線特別票價、普通港鐵接駁段票價及免費接駁條件。
+- 香港國際機場起點會獨立顯示機場快線票價、接駁港鐵優惠及免費接駁條件。
 - 選定起點與店舖後，頁面與地圖會以港鐵線路色塊和小徽標顯示相關路線。
 
 ## 機種分類
@@ -85,7 +85,7 @@ KONAMI 系：
 
 A mobile-friendly and desktop-friendly arcade rhythm game map for Hong Kong. The site collects arcade locations, game categories, opening hours, favorites, map links, and transport estimates from major border checkpoints, Hong Kong West Kowloon Station, and Hong Kong International Airport.
 
-Current version: `v1.1.6`
+Current version: `v1.1.7`
 
 Live site:
 
@@ -105,7 +105,7 @@ Live site:
 - Return-trip estimate with separate border checkpoint deadline and MTR last-train deadline.
 - Border checkpoint deadlines include at least a 30-minute clearance buffer.
 - If the border checkpoint closing deadline is earlier than the MTR last-train deadline, only the effective border deadline is shown.
-- Hong Kong International Airport shows Airport Express special fare, normal MTR connection fare, and free-connection conditions separately.
+- Hong Kong International Airport shows Airport Express fare, MTR connection offer, and free-connection conditions separately.
 - Selected origin / destination routes show MTR line badges and map route overlays with line reference colors.
 
 ## Game Categories
