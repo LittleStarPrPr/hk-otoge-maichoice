@@ -2,7 +2,7 @@
 
 香港街機音樂遊戲地圖與出行檢查工具。網站針對香港可遊玩的街機音遊店舖，整理店舖位置、機種分類、營業時間、收藏、地圖連結，以及由主要口岸 / 西九龍高鐵站出發與返程的交通資訊。
 
-目前版本：`v1.1.3`
+目前版本：`v1.1.4`
 
 網站：
 
@@ -81,7 +81,7 @@ KONAMI 系：
 
 A mobile-friendly and desktop-friendly arcade rhythm game map for Hong Kong. The site collects arcade locations, game categories, opening hours, favorites, map links, and transport estimates from major border checkpoints and Hong Kong West Kowloon Station.
 
-Current version: `v1.1.3`
+Current version: `v1.1.4`
 
 Live site:
 
