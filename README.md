@@ -2,7 +2,7 @@
 
 香港街機音樂遊戲地圖與出行檢查工具。網站針對香港可遊玩的街機音遊店舖，整理店舖位置、機種分類、營業時間、收藏、地圖連結，以及由主要口岸 / 西九龍高鐵站 / 香港國際機場出發與返程的交通資訊。
 
-目前版本：`v1.1.9`
+目前版本：`v1.1.10`
 
 網站：
 
@@ -14,7 +14,7 @@
 - 香港音遊機廳地圖總覽，支援桌面與手機瀏覽。
 - 歡迎頁顯示總統計、機種分類、資料來源與免責提示。
 - 地圖縮放 / 移動時，列表會同步顯示目前地圖範圍內的機廳。
-- 依起點自動置頂最近 / 最便宜機廳，並以綠色呼吸環標示。
+- 依起點自動置頂最近 / 路費最低機廳，並以綠色呼吸環標示。
 - 店舖卡片顯示名稱、地區、地址、人氣值、營業時間、機種、更新來源與地圖連結。
 - 每間店提供 Apple 地圖、Google 地圖、BEMANI CN、ZIv 連結。
 - 可收藏常去店舖，收藏資料儲存在本機瀏覽器。
@@ -86,7 +86,7 @@ KONAMI 系：
 
 A mobile-friendly and desktop-friendly arcade rhythm game map for Hong Kong. The site collects arcade locations, game categories, opening hours, favorites, map links, and transport estimates from major border checkpoints, Hong Kong West Kowloon Station, and Hong Kong International Airport.
 
-Current version: `v1.1.9`
+Current version: `v1.1.10`
 
 Live site:
 
@@ -98,7 +98,7 @@ Live site:
 - Overview map for Hong Kong arcade rhythm game locations.
 - Welcome screen with total counts, game categories, data sources, and disclaimer.
 - Arcade list updates dynamically based on the current map viewport.
-- Automatically pins the nearest / cheapest arcade for the selected origin with a green pulse highlight.
+- Automatically pins the nearest / lowest-fare arcade for the selected origin with a green pulse highlight.
 - Arcade cards show name, district, address, popularity score, opening hours, game availability, source updates, and map links.
 - Apple Maps, Google Maps, BEMANI CN, and ZIv links for each arcade.
 - Local browser favorites for frequently visited arcades.
