@@ -2,7 +2,7 @@
 
 香港街機音樂遊戲地圖與出行檢查工具。網站針對香港可遊玩的街機音遊店舖，整理店舖位置、機種分類、營業時間、收藏、地圖連結，以及由主要口岸 / 西九龍高鐵站 / 香港國際機場出發與返程的交通資訊。
 
-目前版本：`v1.1.12`
+目前版本：`v1.1.13`
 
 網站：
 
@@ -21,7 +21,7 @@
 - 支援亮色與 OLED 純黑暗黑模式。
 - 支援起點 / 終點選擇，估算去程交通費與理論最快路線時間。
 - 支援返程估算，並分開顯示口岸關閉紅線與港鐵末班車紅線。
-- 如目前路線模型包含口岸接駁巴士，會以獨立色塊顯示公交車線路、編號及票價，並計入總交通費。
+- 如目前路線模型包含口岸接駁巴士，會以獨立色塊顯示公交車線路、編號及參考票價，並計入總交通費；所有價格僅供參考。
 - 由最近港鐵站步行至終點店舖會以獨立色塊顯示，並提供步行時間估算。
 - 口岸紅線會預留至少 30 分鐘過關緩衝。
 - 如口岸關閉紅線早於港鐵末班車紅線，頁面只顯示最終有效的口岸紅線。
@@ -54,7 +54,7 @@ KONAMI 系：
 - 港珠澳大橋香港口岸
 - 香港國際機場 / 機場快線機場站
 
-交通費、路線時間、末班車與口岸時間均為公開資料推算。香港國際機場不套用口岸關閉時間，只顯示返程港鐵 / 機場快線末班約束與機場快線班次提示。實際出行請以港鐵、口岸、機場及現場資訊為準。
+交通費、路線時間、末班車與口岸時間均為公開資料推算。所有價格僅供參考。香港國際機場不套用口岸關閉時間，只顯示返程港鐵 / 機場快線末班約束與機場快線班次提示。實際出行請以港鐵、口岸、機場及現場資訊為準。
 
 ## 資料來源
 
@@ -64,14 +64,14 @@ KONAMI 系：
 - Zenius-I-vanisher
 - MTR 官方 HRRoutes API 與機場快線時間表
 - 香港入境事務處口岸辦公時間
-- 公開巴士票價資料
+- 公開巴士票價參考資料
 - 公開社群與店舖備註資訊
 
 資料生成日期：`2026-06-17`
 
 ## 免責
 
-本頁面僅供出行和選店參考。機台數量、版本、營業時間、店舖狀態、票價、路線、口岸安排與現場人流可能隨時變化。出發前請以機廳現場、官方交通及口岸資訊為準。人氣值只表示公開社群熱度，不代表即時排隊人數。
+本頁面僅供出行和選店參考。機台數量、版本、營業時間、店舖狀態、票價、價格、路線、口岸安排與現場人流可能隨時變化。所有價格僅供參考，出發前請以機廳現場、官方交通及口岸資訊為準。人氣值只表示公開社群熱度，不代表即時排隊人數。
 
 ## 部署
 
@@ -88,7 +88,7 @@ KONAMI 系：
 
 A mobile-friendly and desktop-friendly arcade rhythm game map for Hong Kong. The site collects arcade locations, game categories, opening hours, favorites, map links, and transport estimates from major border checkpoints, Hong Kong West Kowloon Station, and Hong Kong International Airport.
 
-Current version: `v1.1.12`
+Current version: `v1.1.13`
 
 Live site:
 
@@ -107,7 +107,7 @@ Live site:
 - Light mode and OLED pure-black dark mode.
 - Origin / destination selector for estimated outbound fare and theoretical fastest route time.
 - Return-trip estimate with separate border checkpoint deadline and MTR last-train deadline.
-- If the current route model includes a border feeder bus, the route number and fare are shown as a separate bus badge and included in the total transport fare.
+- If the current route model includes a border feeder bus, the route number and reference fare are shown as a separate bus badge and included in the total transport fare; all prices are for reference only.
 - The final walking leg from the nearest MTR station to the arcade is shown as a separate walking badge with an estimated walking time.
 - Border checkpoint deadlines include at least a 30-minute clearance buffer.
 - If the border checkpoint closing deadline is earlier than the MTR last-train deadline, only the effective border deadline is shown.
@@ -138,7 +138,7 @@ Filter behavior: all games are shown by default. Selecting one category switches
 - Hong Kong-Zhuhai-Macao Bridge Hong Kong Port
 - Hong Kong International Airport / Airport Express Airport Station
 
-Fare, route time, last-train, and border checkpoint estimates are derived from public data. Hong Kong International Airport is not treated as a border checkpoint; it only shows the MTR / Airport Express last-train constraint and Airport Express frequency note. Check official sources before travel.
+Fare, route time, last-train, and border checkpoint estimates are derived from public data. All prices are for reference only. Hong Kong International Airport is not treated as a border checkpoint; it only shows the MTR / Airport Express last-train constraint and Airport Express frequency note. Check official sources before travel.
 
 ## Data Sources
 
@@ -148,14 +148,14 @@ Main sources include:
 - Zenius-I-vanisher
 - MTR official HRRoutes API and Airport Express timetable
 - Hong Kong Immigration Department control point opening hours
-- Public bus fare references
+- Public bus fare reference material
 - Public community and arcade notes
 
 Data generated on: `2026-06-17`
 
 ## Disclaimer
 
-This site is for trip planning and arcade selection reference only. Machine counts, versions, opening hours, arcade status, fares, routes, checkpoint arrangements, and crowd levels may change at any time. Please verify with the arcade, official transport sources, and border checkpoint information before departure. Popularity scores represent public community activity and do not indicate real-time queue length.
+This site is for trip planning and arcade selection reference only. Machine counts, versions, opening hours, arcade status, fares, prices, routes, checkpoint arrangements, and crowd levels may change at any time. All prices are for reference only. Please verify with the arcade, official transport sources, and border checkpoint information before departure. Popularity scores represent public community activity and do not indicate real-time queue length.
 
 ## Deployment
 
